@@ -1,0 +1,29 @@
+{
+  "name": "taro-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "nodemon src/api/index.js"
+  },
+  "keywords": [],
+  "author": "Sistemium UAB",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "esm": "^3.2.25",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "lodash": "^4.17.21",
+    "sistemium-debug": "^1.0.1",
+    "sistemium-mongo": "^1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}

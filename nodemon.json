@@ -1,0 +1,14 @@
+{
+  "execMap": {
+    "js": "node -r esm"
+  },
+  "env": {
+    "DEBUG": "stm:*",
+    "MONGOOSE_DEBUG": "true",
+    "MONGO_URL": "mng2.sistemium.net/taro",
+    "DEBUG_NAMESPACE": "stm:taro",
+    "ERROR_NAMESPACE": "stm:taro:error",
+    "PORT": "3100"
+  },
+  "watch":  ["src"]
+}
