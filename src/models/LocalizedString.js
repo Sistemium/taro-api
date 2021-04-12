@@ -4,7 +4,7 @@ export const CodeString = String;
 export default new ModelSchema({
   collection: 'LocalizedString',
   schema: {
-    code: String, // unique
+    id: CodeString,
     value: {
       ru: String,
       en: String,
