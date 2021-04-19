@@ -5,6 +5,7 @@ import Router from '@koa/router';
 import * as mongo from 'sistemium-mongo/lib/mongoose';
 import { defaultRoutes } from 'sistemium-mongo/lib/api';
 import models from '../models';
+import map from 'lodash/map';
 
 import assert from 'sistemium-mongo/lib/assert';
 
@@ -17,7 +18,7 @@ app
   .use(koaBody())
   .use(router.routes());
 
-defaultRoutes(router, models);
+defaultRoutes(router, map(models));
 
 if (!module.parent) {
 

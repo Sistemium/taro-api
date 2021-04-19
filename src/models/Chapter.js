@@ -1,11 +1,10 @@
-import ModelSchema from 'sistemium-mongo/lib/schema';
 import { CodeString } from './LocalizedString';
 
-export default new ModelSchema({
+export default {
   collection: 'Chapter',
   schema: {
     title: CodeString,
     description: CodeString,
     info: CodeString,
   },
-}).model();
+};

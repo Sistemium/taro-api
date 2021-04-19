@@ -1,7 +1,6 @@
-import ModelSchema from 'sistemium-mongo/lib/schema';
 export const CodeString = String;
 
-export default new ModelSchema({
+export default {
   collection: 'LocalizedString',
   schema: {
     id: CodeString,
@@ -10,4 +9,4 @@ export default new ModelSchema({
       en: String,
     },
   },
-}).model();
+};
