@@ -16,11 +16,11 @@ describe('Mongo models', function () {
 
     const { LocalizedString } = models;
 
-    const inserted = await LocalizedString.create(props);
+    const inserted = await LocalizedString.createOne(props);
 
     expect(inserted.toObject()).to.deep.include(props);
 
-    await LocalizedString.deleteOne({ id: props.id });
+    await LocalizedString.destroy(props.id);
 
   });
 
