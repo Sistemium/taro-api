@@ -18,7 +18,7 @@ describe('Mongo models', function () {
 
     const inserted = await LocalizedString.createOne(props);
 
-    expect(inserted.toObject()).to.deep.include(props);
+    expect(inserted).to.deep.include(props);
 
     await LocalizedString.destroy(props.id);
 
