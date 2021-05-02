@@ -3,14 +3,16 @@ import koaBody from 'koa-bodyparser';
 import logger from 'koa-logger';
 import Router from '@koa/router';
 import { defaultRoutes } from 'sistemium-mongo/lib/api';
-import models from '../models';
 import map from 'lodash/map';
-
 import assert from 'sistemium-mongo/lib/assert';
+import log from 'sistemium-debug';
+
+import models, { connect } from '../models';
 
 const { PORT } = process.env;
 const app = new Koa();
 const router = new Router();
+const { debug } = log('api');
 
 app
   .use(logger())
@@ -23,10 +25,11 @@ if (!module.parent) {
 
   assert(PORT, 'PORT must be specified');
 
-  models.connect()
+  connect()
+    // .then(archiveConnect)
     .then(() => {
       app.listen(PORT);
-      console.info('PORT', PORT);
+      debug('PORT', PORT);
     });
 
 }
