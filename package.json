@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha -r esm --exit",
     "api": "nodemon src/api/index.js",
     "build": "rm -rf dist && cp -rv src dist && cp package.json dist"
   },
