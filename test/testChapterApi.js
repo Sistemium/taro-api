@@ -12,6 +12,9 @@ describe('Chapter API', function () {
 
   it('should accept object by POST', async function () {
 
+    await api.get('/Chapter')
+      .expect(204);
+
     const props = {
       id: 'm-star-test',
       title: 'Money Star',
@@ -27,6 +30,9 @@ describe('Chapter API', function () {
     expect(chapter).to.deep.include(props);
 
     const { id: createdChapterId } = chapter;
+
+    await api.get('/Chapter')
+      .expect(200);
 
     await api.delete(`/Chapter/${createdChapterId}`)
       .expect(204);

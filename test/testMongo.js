@@ -1,4 +1,4 @@
-import { assert, expect } from 'chai';
+import { expect } from 'chai';
 
 import models from '../src/models';
 import { checkConnectMongo } from './helpers';
