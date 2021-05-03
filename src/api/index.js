@@ -35,21 +35,3 @@ if (!module.parent) {
 }
 
 export default app;
-
-// export function defaultRoutes(router, models = []) {
-//
-//   models.forEach(model => {
-//
-//     const { collection: name } = model;
-//
-//     debug('defaultRoutes for:', name);
-//
-//     router.post(`/${name}/:id?`, postHandler(model));
-//     router.put(`/${name}/:id?`, postHandler(model));
-//     router.get(`/${name}`, getManyHandler(model));
-//     router.get(`/${name}/:id`, getHandler(model));
-//     router.delete(`/${name}/:id`, delHandler(model));
-//
-//   });
-//
-// }

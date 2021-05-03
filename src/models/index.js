@@ -1,5 +1,6 @@
-import Model from 'sistemium-data/src/Model';
-import MongoStoreAdapter from 'sistemium-data/src/MongoStoreAdapter';
+import { Model } from 'sistemium-data';
+import { MongoStoreAdapter } from 'sistemium-data';
+import CommonFieldsPlugin from 'sistemium-data/src/plugins/CommonFieldsPlugin';
 
 import Chapter from './Chapter';
 import ChapterData from './ChapterData';
@@ -27,7 +28,9 @@ class TaroModel extends Model {
 }
 
 const adapter = new MongoStoreAdapter({});
-TaroModel.useStoreAdapter(adapter);
+
+TaroModel.useStoreAdapter(adapter)
+  .plugin(new CommonFieldsPlugin());
 
 export default {
   Chapter: new TaroModel(Chapter),
