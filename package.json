@@ -18,7 +18,7 @@
     "koa-bodyparser": "^4.3.0",
     "koa-logger": "^3.2.1",
     "lodash": "^4.17.21",
-    "sistemium-data": "^1.4.5",
+    "sistemium-data": "^1.4.6",
     "sistemium-debug": "^1.0.1",
     "sistemium-mongo": "^1.10.3"
   },
