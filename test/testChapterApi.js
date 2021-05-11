@@ -17,9 +17,9 @@ describe('Chapter API', function () {
 
     const props = {
       id: 'm-star-test',
-      title: 'Money Star',
-      description: 'Money Star description',
-      info: 'Money Star instructions',
+      titleId: 'Money Star',
+      descriptionId: 'Money Star description',
+      infoId: 'Money Star instructions',
     };
 
     const { body: chapter } = await api
