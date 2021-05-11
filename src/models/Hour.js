@@ -5,6 +5,6 @@ export default {
   schema: {
     timeB: String,
     timeE: String,
-    animal: CodeString,
+    animalId: CodeString,
   },
 };

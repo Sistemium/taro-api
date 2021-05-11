@@ -4,8 +4,8 @@ export default {
   collection: 'Chapter',
   schema: {
     name: String,
-    title: CodeString,
-    description: CodeString,
-    info: CodeString,
+    titleId: CodeString,
+    descriptionId: CodeString,
+    infoId: CodeString,
   },
 };

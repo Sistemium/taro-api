@@ -7,9 +7,9 @@ export default {
     date: Date,
     hours: [{
       hourId: String,
-      sector: CodeString,
-      activator: CodeString,
-      excludes: CodeString,
+      sectorId: CodeString,
+      activatorId: CodeString,
+      excludeZodiakId: CodeString,
     }],
   },
 };
