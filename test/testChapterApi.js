@@ -34,6 +34,15 @@ describe('Chapter API', function () {
     await api.get('/Chapter')
       .expect(200);
 
+    props.descriptionId = null;
+
+    const { body: updated } = await api
+      .post(`/Chapter/${props.id}`)
+      .send(this.props)
+      .expect(200);
+
+    expect(updated.descriptionId).equals(null);
+
     await api.delete(`/Chapter/${createdChapterId}`)
       .expect(204);
 

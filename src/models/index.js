@@ -16,7 +16,7 @@ class TaroModel extends Model {
 
   normalizeItem(item, defaults = {}, overrides = {}) {
     const { schema } = this;
-    const all = mapValues(schema, (keySchema, key) => overrides[key] || item[key] || defaults[key]);
+    const all = mapValues(schema, (keySchema, key) => overrides[key] || item[key] || defaults[key] || null);
     return omitInternal(all);
   }
 
