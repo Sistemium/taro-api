@@ -9,7 +9,7 @@ export default {
       hourId: String,
       sectorId: CodeString,
       activatorId: CodeString,
-      excludeZodiakId: CodeString,
+      excludeZodiacId: CodeString,
     }],
   },
 };
