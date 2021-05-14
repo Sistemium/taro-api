@@ -9,14 +9,24 @@ import LocalizedString from './LocalizedString';
 import mapValues from 'lodash/mapValues';
 import fpOmitBy from 'lodash/fp/omitBy';
 
-const INTERNAL_FIELDS_RE = /^_/;
+// FIXME: id and cts handling must be done in adapter
+const INTERNAL_FIELDS_RE = /^(_.*|cts)$/;
 const omitInternal = fpOmitBy((val, key) => INTERNAL_FIELDS_RE.test(key));
 
 class TaroModel extends Model {
 
   normalizeItem(item, defaults = {}, overrides = {}) {
     const { schema } = this;
-    const all = mapValues(schema, (keySchema, key) => overrides[key] || item[key] || defaults[key] || null);
+    const all = mapValues(schema, (keySchema, key) => {
+      const res = overrides[key] || item[key] || defaults[key];
+      if (res === undefined) {
+        if (keySchema.default) {
+          return res;
+        }
+        return null;
+      }
+      return res;
+    });
     return omitInternal(all);
   }
 
