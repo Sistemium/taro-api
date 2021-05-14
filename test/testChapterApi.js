@@ -48,4 +48,21 @@ describe('Chapter API', function () {
 
   });
 
-});
+  it('should create object with defaults', async function () {
+
+    const props = {
+      titleId: 'Money Star',
+    };
+
+    const { body: chapter } = await api
+      .post('/Chapter')
+      .send(props)
+      .expect(200);
+
+    expect(chapter.id).not.null;
+    expect(chapter.cts).not.null;
+    expect(chapter.ts).not.null;
+
+  });
+
+  });
