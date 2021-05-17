@@ -9,5 +9,6 @@ export default {
       ru: String,
       en: String,
     },
+    data: Object,
   },
 };

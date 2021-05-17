@@ -2,13 +2,15 @@ import { assert, expect } from 'chai';
 import supertest from 'supertest';
 
 import app from '../src/api';
-import { checkConnectMongo } from './helpers';
+import { beforeEachReset, checkConnectMongo } from './helpers';
 
 const api = supertest(app.callback());
 
 describe('Chapter API', function () {
 
   before(checkConnectMongo);
+
+  beforeEach(beforeEachReset);
 
   it('should accept object by POST', async function () {
 
@@ -65,4 +67,4 @@ describe('Chapter API', function () {
 
   });
 
-  });
+});
