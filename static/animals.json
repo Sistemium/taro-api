@@ -1,0 +1,98 @@
+[
+  {
+    "id": "animal-rat",
+    "value": {
+      "en": "Rat",
+      "ru": "Крыса"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-rabbit",
+    "value": {
+      "en": "Rabbit",
+      "ru": "Кролик"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-dragon",
+    "value": {
+      "en": "Dragon",
+      "ru": "Дракон"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-monkey",
+    "value": {
+      "en": "Monkey",
+      "ru": "Обезяна"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-bull",
+    "value": {
+      "en": "Bull",
+      "ru": "Бык"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-snake",
+    "value": {
+      "en": "Snake",
+      "ru": "Змея"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-cock",
+    "value": {
+      "en": "Cock",
+      "ru": "Петух"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-pig",
+    "value": {
+      "en": "Pig",
+      "ru": "Свинья"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-tiger",
+    "value": {
+      "en": "Tiger",
+      "ru": "Тигр"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-dog",
+    "value": {
+      "en": "Dog",
+      "ru": "Собака"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-goat",
+    "value": {
+      "en": "Goat",
+      "ru": "Коза"
+    },
+    "source": "animal"
+  },
+  {
+    "id": "animal-horse",
+    "value": {
+      "en": "Horse",
+      "ru": "Лошадь"
+    },
+    "source": "animal"
+  }
+]

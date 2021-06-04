@@ -1,0 +1,66 @@
+[
+  {
+    "id": "sector-south",
+    "value": {
+      "en": "South",
+      "ru": "Юг"
+    },
+    "source": "sector"
+  },
+  {
+    "id": "sector-north",
+    "value": {
+      "en": "North",
+      "ru": "Север"
+    },
+    "source": "sector"
+  },
+  {
+    "id": "sector-east",
+    "value": {
+      "en": "East",
+      "ru": "Восток"
+    },
+    "source": "sector"
+  },
+  {
+    "id": "sector-west",
+    "value": {
+      "en": "West",
+      "ru": "Запад"
+    },
+    "source": "sector"
+  },
+  {
+    "id": "sector-south-west",
+    "value": {
+      "en": "South-West",
+      "ru": "Юго-Запад"
+    },
+    "source": "sector"
+  },
+  {
+    "id": "sector-south-east",
+    "value": {
+      "en": "South-East",
+      "ru": "Юго-Восток"
+    },
+    "source": "sector"
+  },
+  {
+    "id": "sector-north-west",
+    "value": {
+      "en": "North-West",
+      "ru": "Северо-Запад"
+    },
+    "source": "sector"
+  },
+  {
+    "id": "sector-north-east",
+    "value": {
+      "en": "North-East",
+      "ru": "Северо-Восток"
+    },
+    "source": "sector"
+  }
+]

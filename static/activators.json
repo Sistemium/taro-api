@@ -1,0 +1,26 @@
+[
+  {
+    "id": "activator-fan",
+    "value": {
+      "en": "Fan",
+      "ru": "Вентилятор"
+    },
+    "source": "activator"
+  },
+  {
+    "id": "activator-candle",
+    "value": {
+      "en": "Candle",
+      "ru": "Свеча"
+    },
+    "source": "activator"
+  },
+  {
+    "id": "activator-fountain",
+    "value": {
+      "en": "Fountain",
+      "ru": "Фонтан"
+    },
+    "source": "activator"
+  }
+]
