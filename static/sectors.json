@@ -5,7 +5,10 @@
       "en": "South",
       "ru": "Юг"
     },
-    "source": "sector"
+    "source": "sector",
+    "data": {
+      "heading": 180
+    }
   },
   {
     "id": "sector-north",
@@ -13,7 +16,10 @@
       "en": "North",
       "ru": "Север"
     },
-    "source": "sector"
+    "source": "sector",
+    "data": {
+      "heading": 0
+    }
   },
   {
     "id": "sector-east",
@@ -21,7 +27,10 @@
       "en": "East",
       "ru": "Восток"
     },
-    "source": "sector"
+    "source": "sector",
+    "data": {
+      "heading": 90
+    }
   },
   {
     "id": "sector-west",
@@ -29,7 +38,10 @@
       "en": "West",
       "ru": "Запад"
     },
-    "source": "sector"
+    "source": "sector",
+    "data": {
+      "heading": 270
+    }
   },
   {
     "id": "sector-south-west",
@@ -37,7 +49,10 @@
       "en": "South-West",
       "ru": "Юго-Запад"
     },
-    "source": "sector"
+    "source": "sector",
+    "data": {
+      "heading": 225
+    }
   },
   {
     "id": "sector-south-east",
@@ -45,7 +60,10 @@
       "en": "South-East",
       "ru": "Юго-Восток"
     },
-    "source": "sector"
+    "source": "sector",
+    "data": {
+      "heading": 135
+    }
   },
   {
     "id": "sector-north-west",
@@ -53,7 +71,10 @@
       "en": "North-West",
       "ru": "Северо-Запад"
     },
-    "source": "sector"
+    "source": "sector",
+    "data": {
+      "heading": 315
+    }
   },
   {
     "id": "sector-north-east",
@@ -61,6 +82,9 @@
       "en": "North-East",
       "ru": "Северо-Восток"
     },
-    "source": "sector"
+    "source": "sector",
+    "data": {
+      "heading": 45
+    }
   }
 ]
