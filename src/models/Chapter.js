@@ -7,5 +7,6 @@ export default {
     titleId: CodeString,
     descriptionId: CodeString,
     infoId: CodeString,
+    useActivators: Boolean,
   },
 };
