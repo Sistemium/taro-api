@@ -9,7 +9,6 @@ export default {
       hourId: String,
       sectorId: CodeString,
       activatorId: CodeString,
-      excludeZodiacId: CodeString,
     }],
   },
 };
