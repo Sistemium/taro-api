@@ -5,7 +5,10 @@
       "en": "Rat",
       "ru": "Крыса"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-horse"
+    }
   },
   {
     "id": "animal-rabbit",
@@ -13,7 +16,10 @@
       "en": "Rabbit",
       "ru": "Кролик"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-cock"
+    }
   },
   {
     "id": "animal-dragon",
@@ -21,7 +27,10 @@
       "en": "Dragon",
       "ru": "Дракон"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-dog"
+    }
   },
   {
     "id": "animal-monkey",
@@ -29,7 +38,10 @@
       "en": "Monkey",
       "ru": "Обезяна"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-tiger"
+    }
   },
   {
     "id": "animal-bull",
@@ -37,7 +49,10 @@
       "en": "Bull",
       "ru": "Бык"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-goat"
+    }
   },
   {
     "id": "animal-snake",
@@ -45,7 +60,10 @@
       "en": "Snake",
       "ru": "Змея"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-pig"
+    }
   },
   {
     "id": "animal-cock",
@@ -53,7 +71,10 @@
       "en": "Cock",
       "ru": "Петух"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-rabbit"
+    }
   },
   {
     "id": "animal-pig",
@@ -61,7 +82,10 @@
       "en": "Pig",
       "ru": "Свинья"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-snake"
+    }
   },
   {
     "id": "animal-tiger",
@@ -69,7 +93,10 @@
       "en": "Tiger",
       "ru": "Тигр"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-monkey"
+    }
   },
   {
     "id": "animal-dog",
@@ -77,7 +104,10 @@
       "en": "Dog",
       "ru": "Собака"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-dragon"
+    }
   },
   {
     "id": "animal-goat",
@@ -85,7 +115,10 @@
       "en": "Goat",
       "ru": "Коза"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-bull"
+    }
   },
   {
     "id": "animal-horse",
@@ -93,6 +126,9 @@
       "en": "Horse",
       "ru": "Лошадь"
     },
-    "source": "animal"
+    "source": "animal",
+    "data": {
+      "incompatible": "animal-rat"
+    }
   }
 ]
