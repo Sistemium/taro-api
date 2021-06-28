@@ -8,5 +8,9 @@ export default {
     descriptionId: CodeString,
     infoId: CodeString,
     useActivators: Boolean,
+    isDisabled: {
+      type: Boolean,
+      default: false,
+    },
   },
 };
