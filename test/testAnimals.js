@@ -17,8 +17,6 @@ describe('Animals data', function () {
         && (idx + 1) < sorted.length;
     });
 
-    // console.info(invalid);
-
     expect(invalid).to.eql([]);
 
   });
