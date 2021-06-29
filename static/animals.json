@@ -1,270 +1,206 @@
 [
   {
     "id": "animal-rat",
-    "value": {
-      "en": "Rat",
-      "ru": "Крыса"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-horse",
-      "years": [
-        { "dateB": "1924-02-05", "dateE": "1925-01-23" },
-        { "dateB": "1936-01-24", "dateE": "1937-02-10" },
-        { "dateB": "1948-02-10", "dateE": "1949-01-28" },
-        { "dateB": "1960-01-28", "dateE": "1961-02-14" },
-        { "dateB": "1972-02-15", "dateE": "1973-02-02" },
-        { "dateB": "1984-02-02", "dateE": "1985-02-19" },
-        { "dateB": "1996-02-19", "dateE": "1997-02-06" },
-        { "dateB": "2008-02-07", "dateE": "2009-01-25" },
-        { "dateB": "2020-01-25", "dateE": "2021-02-11" }
-      ]
-    }
+    "nameId": "name-rat",
+    "incompatibleId": "animal-horse",
+    "notForId": "not-for-rats",
+    "years": [
+      { "dateB": "1924-02-05", "dateE": "1925-01-23" },
+      { "dateB": "1936-01-24", "dateE": "1937-02-10" },
+      { "dateB": "1948-02-10", "dateE": "1949-01-28" },
+      { "dateB": "1960-01-28", "dateE": "1961-02-14" },
+      { "dateB": "1972-02-15", "dateE": "1973-02-02" },
+      { "dateB": "1984-02-02", "dateE": "1985-02-19" },
+      { "dateB": "1996-02-19", "dateE": "1997-02-06" },
+      { "dateB": "2008-02-07", "dateE": "2009-01-25" },
+      { "dateB": "2020-01-25", "dateE": "2021-02-11" }
+    ]
   },
   {
     "id": "animal-rabbit",
-    "value": {
-      "en": "Rabbit",
-      "ru": "Кролик"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-cock",
-      "years": [
-        { "dateB": "1927-02-02", "dateE": "1928-01-22" },
-        { "dateB": "1939-02-19", "dateE": "1940-02-07" },
-        { "dateB": "1951-02-06", "dateE": "1952-01-26" },
-        { "dateB": "1963-01-25", "dateE": "1964-02-12" },
-        { "dateB": "1975-02-11", "dateE": "1976-01-30" },
-        { "dateB": "1987-01-29", "dateE": "1988-02-16" },
-        { "dateB": "1999-02-16", "dateE": "2000-02-04" },
-        { "dateB": "2011-02-03", "dateE": "2012-01-22" },
-        { "dateB": "2023-01-22", "dateE": "2024-02-09" }
-      ]
-    }
+    "nameId": "name-rabbit",
+    "incompatibleId": "animal-cock",
+    "notForId": "not-for-rabbits",
+    "years": [
+      { "dateB": "1927-02-02", "dateE": "1928-01-22" },
+      { "dateB": "1939-02-19", "dateE": "1940-02-07" },
+      { "dateB": "1951-02-06", "dateE": "1952-01-26" },
+      { "dateB": "1963-01-25", "dateE": "1964-02-12" },
+      { "dateB": "1975-02-11", "dateE": "1976-01-30" },
+      { "dateB": "1987-01-29", "dateE": "1988-02-16" },
+      { "dateB": "1999-02-16", "dateE": "2000-02-04" },
+      { "dateB": "2011-02-03", "dateE": "2012-01-22" },
+      { "dateB": "2023-01-22", "dateE": "2024-02-09" }
+    ]
   },
   {
     "id": "animal-dragon",
-    "value": {
-      "en": "Dragon",
-      "ru": "Дракон"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-dog",
-      "years": [
-        { "dateB": "1928-01-23", "dateE": "1929-02-09" },
-        { "dateB": "1940-02-08", "dateE": "1941-01-26" },
-        { "dateB": "1952-01-27", "dateE": "1953-02-13" },
-        { "dateB": "1964-02-13", "dateE": "1965-02-01" },
-        { "dateB": "1976-01-31", "dateE": "1977-02-17" },
-        { "dateB": "1988-02-17", "dateE": "1989-02-05" },
-        { "dateB": "2000-02-05", "dateE": "2001-01-23" },
-        { "dateB": "2012-01-23", "dateE": "2013-02-09" },
-        { "dateB": "2024-02-10", "dateE": "2025-01-28" }
-      ]
-    }
+    "nameId": "name-dragon",
+    "incompatibleId": "animal-dog",
+    "notForId": "not-for-dragons",
+    "years": [
+      { "dateB": "1928-01-23", "dateE": "1929-02-09" },
+      { "dateB": "1940-02-08", "dateE": "1941-01-26" },
+      { "dateB": "1952-01-27", "dateE": "1953-02-13" },
+      { "dateB": "1964-02-13", "dateE": "1965-02-01" },
+      { "dateB": "1976-01-31", "dateE": "1977-02-17" },
+      { "dateB": "1988-02-17", "dateE": "1989-02-05" },
+      { "dateB": "2000-02-05", "dateE": "2001-01-23" },
+      { "dateB": "2012-01-23", "dateE": "2013-02-09" },
+      { "dateB": "2024-02-10", "dateE": "2025-01-28" }
+    ]
   },
   {
     "id": "animal-monkey",
-    "value": {
-      "en": "Monkey",
-      "ru": "Обезяна"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-tiger",
-      "years": [
-        { "dateB": "1932-02-06", "dateE": "1933-01-25" },
-        { "dateB": "1944-01-25", "dateE": "1945-02-12" },
-        { "dateB": "1956-02-12", "dateE": "1957-01-30" },
-        { "dateB": "1968-01-31", "dateE": "1969-02-16" },
-        { "dateB": "1980-02-16", "dateE": "1981-02-04" },
-        { "dateB": "1992-02-04", "dateE": "1993-01-22" },
-        { "dateB": "2004-01-22", "dateE": "2005-02-08" },
-        { "dateB": "2016-02-08", "dateE": "2017-01-27" },
-        { "dateB": "2028-01-26", "dateE": "2029-02-12" }
-      ]
-    }
+    "nameId": "name-monkey",
+    "incompatibleId": "animal-tiger",
+    "notForId": "not-for-monkeys",
+    "years": [
+      { "dateB": "1932-02-06", "dateE": "1933-01-25" },
+      { "dateB": "1944-01-25", "dateE": "1945-02-12" },
+      { "dateB": "1956-02-12", "dateE": "1957-01-30" },
+      { "dateB": "1968-01-31", "dateE": "1969-02-16" },
+      { "dateB": "1980-02-16", "dateE": "1981-02-04" },
+      { "dateB": "1992-02-04", "dateE": "1993-01-22" },
+      { "dateB": "2004-01-22", "dateE": "2005-02-08" },
+      { "dateB": "2016-02-08", "dateE": "2017-01-27" },
+      { "dateB": "2028-01-26", "dateE": "2029-02-12" }
+    ]
   },
   {
     "id": "animal-bull",
-    "value": {
-      "en": "Bull",
-      "ru": "Бык"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-goat",
-      "years": [
-        { "dateB": "1925-01-24", "dateE": "1926-02-12" },
-        { "dateB": "1937-02-11", "dateE": "1938-01-31" },
-        { "dateB": "1949-01-29", "dateE": "1950-02-16" },
-        { "dateB": "1961-02-15", "dateE": "1962-02-04" },
-        { "dateB": "1973-02-03", "dateE": "1974-01-22" },
-        { "dateB": "1985-02-20", "dateE": "1986-02-08" },
-        { "dateB": "1997-02-07", "dateE": "1998-01-27" },
-        { "dateB": "2009-01-26", "dateE": "2010-02-13" },
-        { "dateB": "2021-02-12", "dateE": "2022-01-31" }
-      ]
-    }
+    "nameId": "name-bull",
+    "incompatibleId": "animal-goat",
+    "notForId": "not-for-bulls",
+    "years": [
+      { "dateB": "1925-01-24", "dateE": "1926-02-12" },
+      { "dateB": "1937-02-11", "dateE": "1938-01-31" },
+      { "dateB": "1949-01-29", "dateE": "1950-02-16" },
+      { "dateB": "1961-02-15", "dateE": "1962-02-04" },
+      { "dateB": "1973-02-03", "dateE": "1974-01-22" },
+      { "dateB": "1985-02-20", "dateE": "1986-02-08" },
+      { "dateB": "1997-02-07", "dateE": "1998-01-27" },
+      { "dateB": "2009-01-26", "dateE": "2010-02-13" },
+      { "dateB": "2021-02-12", "dateE": "2022-01-31" }
+    ]
   },
   {
     "id": "animal-snake",
-    "value": {
-      "en": "Snake",
-      "ru": "Змея"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-pig",
-      "years": [
-        { "dateB": "1929-02-10", "dateE": "1930-01-29" },
-        { "dateB": "1941-01-27", "dateE": "1942-02-14" },
-        { "dateB": "1953-02-14", "dateE": "1954-02-03" },
-        { "dateB": "1965-02-02", "dateE": "1966-01-20" },
-        { "dateB": "1977-02-18", "dateE": "1978-02-06" },
-        { "dateB": "1989-02-06", "dateE": "1990-01-26" },
-        { "dateB": "2001-01-24", "dateE": "2002-02-11" },
-        { "dateB": "2013-02-10", "dateE": "2014-01-30" },
-        { "dateB": "2025-01-29", "dateE": "2026-02-16" }
-      ]
-    }
+    "nameId": "name-snake",
+    "incompatibleId": "animal-pig",
+    "notForId": "not-for-snakes",
+    "years": [
+      { "dateB": "1929-02-10", "dateE": "1930-01-29" },
+      { "dateB": "1941-01-27", "dateE": "1942-02-14" },
+      { "dateB": "1953-02-14", "dateE": "1954-02-03" },
+      { "dateB": "1965-02-02", "dateE": "1966-01-20" },
+      { "dateB": "1977-02-18", "dateE": "1978-02-06" },
+      { "dateB": "1989-02-06", "dateE": "1990-01-26" },
+      { "dateB": "2001-01-24", "dateE": "2002-02-11" },
+      { "dateB": "2013-02-10", "dateE": "2014-01-30" },
+      { "dateB": "2025-01-29", "dateE": "2026-02-16" }
+    ]
   },
   {
     "id": "animal-cock",
-    "value": {
-      "en": "Cock",
-      "ru": "Петух"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-rabbit",
-      "years": [
-        { "dateB": "1933-01-26", "dateE": "1934-02-13" },
-        { "dateB": "1945-02-13", "dateE": "1946-02-01" },
-        { "dateB": "1957-01-31", "dateE": "1958-02-17" },
-        { "dateB": "1969-02-17", "dateE": "1970-02-05" },
-        { "dateB": "1981-02-05", "dateE": "1982-01-24" },
-        { "dateB": "1993-01-23", "dateE": "1994-02-09" },
-        { "dateB": "2005-02-09", "dateE": "2006-01-28" },
-        { "dateB": "2017-01-28", "dateE": "2018-02-15" },
-        { "dateB": "2029-02-13", "dateE": "2030-02-02" }
-      ]
-    }
+    "nameId": "name-cock",
+    "incompatibleId": "animal-rabbit",
+    "notForId": "not-for-cocks",
+    "years": [
+      { "dateB": "1933-01-26", "dateE": "1934-02-13" },
+      { "dateB": "1945-02-13", "dateE": "1946-02-01" },
+      { "dateB": "1957-01-31", "dateE": "1958-02-17" },
+      { "dateB": "1969-02-17", "dateE": "1970-02-05" },
+      { "dateB": "1981-02-05", "dateE": "1982-01-24" },
+      { "dateB": "1993-01-23", "dateE": "1994-02-09" },
+      { "dateB": "2005-02-09", "dateE": "2006-01-28" },
+      { "dateB": "2017-01-28", "dateE": "2018-02-15" },
+      { "dateB": "2029-02-13", "dateE": "2030-02-02" }
+    ]
   },
   {
     "id": "animal-pig",
-    "value": {
-      "en": "Pig",
-      "ru": "Свинья"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-snake",
-      "years": [
-        { "dateB": "1935-02-04", "dateE": "1936-01-23" },
-        { "dateB": "1947-01-22", "dateE": "1948-02-09" },
-        { "dateB": "1959-02-08", "dateE": "1960-01-27" },
-        { "dateB": "1971-01-27", "dateE": "1972-02-14" },
-        { "dateB": "1983-02-13", "dateE": "1984-02-01" },
-        { "dateB": "1995-01-31", "dateE": "1996-02-18" },
-        { "dateB": "2007-02-18", "dateE": "2008-02-06" },
-        { "dateB": "2019-02-05", "dateE": "2020-01-24" },
-        { "dateB": "2031-01-23", "dateE": "2032-02-10" }
-      ]
-    }
+    "nameId": "name-pig",
+    "incompatibleId": "animal-snake",
+    "notForId": "not-for-pigs",
+    "years": [
+      { "dateB": "1935-02-04", "dateE": "1936-01-23" },
+      { "dateB": "1947-01-22", "dateE": "1948-02-09" },
+      { "dateB": "1959-02-08", "dateE": "1960-01-27" },
+      { "dateB": "1971-01-27", "dateE": "1972-02-14" },
+      { "dateB": "1983-02-13", "dateE": "1984-02-01" },
+      { "dateB": "1995-01-31", "dateE": "1996-02-18" },
+      { "dateB": "2007-02-18", "dateE": "2008-02-06" },
+      { "dateB": "2019-02-05", "dateE": "2020-01-24" },
+      { "dateB": "2031-01-23", "dateE": "2032-02-10" }
+    ]
   },
   {
     "id": "animal-tiger",
-    "value": {
-      "en": "Tiger",
-      "ru": "Тигр"
-    },
-    "source": "animal",
-    "data": {
-      "notFor": {
-        "en": "Tigers",
-        "ru": "Тиграм"
-      },
-      "incompatible": "animal-monkey",
-      "years": [
-        { "dateB": "1926-02-13", "dateE": "1927-02-01" },
-        { "dateB": "1938-02-01", "dateE": "1939-02-18" },
-        { "dateB": "1950-02-17", "dateE": "1951-02-05" },
-        { "dateB": "1962-02-05", "dateE": "1963-01-24" },
-        { "dateB": "1974-01-23", "dateE": "1975-02-10" },
-        { "dateB": "1986-02-09", "dateE": "1987-01-28" },
-        { "dateB": "1998-01-28", "dateE": "1999-02-15" },
-        { "dateB": "2010-02-14", "dateE": "2011-02-02" },
-        { "dateB": "2022-02-01", "dateE": "2023-01-21" }
-      ]
-    }
+    "nameId": "name-tiger",
+    "incompatibleId": "animal-monkey",
+    "notForId": "not-for-tigers",
+    "years": [
+      { "dateB": "1926-02-13", "dateE": "1927-02-01" },
+      { "dateB": "1938-02-01", "dateE": "1939-02-18" },
+      { "dateB": "1950-02-17", "dateE": "1951-02-05" },
+      { "dateB": "1962-02-05", "dateE": "1963-01-24" },
+      { "dateB": "1974-01-23", "dateE": "1975-02-10" },
+      { "dateB": "1986-02-09", "dateE": "1987-01-28" },
+      { "dateB": "1998-01-28", "dateE": "1999-02-15" },
+      { "dateB": "2010-02-14", "dateE": "2011-02-02" },
+      { "dateB": "2022-02-01", "dateE": "2023-01-21" }
+    ]
   },
   {
     "id": "animal-dog",
-    "value": {
-      "en": "Dog",
-      "ru": "Собака"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-dragon",
-      "years": [
-        { "dateB": "1934-02-14", "dateE": "1935-02-03" },
-        { "dateB": "1946-02-02", "dateE": "1947-01-21" },
-        { "dateB": "1958-02-18", "dateE": "1959-02-07" },
-        { "dateB": "1970-02-06", "dateE": "1971-01-26" },
-        { "dateB": "1982-01-25", "dateE": "1983-02-12" },
-        { "dateB": "1994-02-10", "dateE": "1995-01-30" },
-        { "dateB": "2006-01-29", "dateE": "2007-02-17" },
-        { "dateB": "2018-02-16", "dateE": "2019-02-04" },
-        { "dateB": "2030-02-03", "dateE": "2031-01-22" }
-      ]
-    }
+    "nameId": "name-dog",
+    "incompatibleId": "animal-dragon",
+    "notForId": "not-for-dogs",
+    "years": [
+      { "dateB": "1934-02-14", "dateE": "1935-02-03" },
+      { "dateB": "1946-02-02", "dateE": "1947-01-21" },
+      { "dateB": "1958-02-18", "dateE": "1959-02-07" },
+      { "dateB": "1970-02-06", "dateE": "1971-01-26" },
+      { "dateB": "1982-01-25", "dateE": "1983-02-12" },
+      { "dateB": "1994-02-10", "dateE": "1995-01-30" },
+      { "dateB": "2006-01-29", "dateE": "2007-02-17" },
+      { "dateB": "2018-02-16", "dateE": "2019-02-04" },
+      { "dateB": "2030-02-03", "dateE": "2031-01-22" }
+    ]
   },
   {
     "id": "animal-goat",
-    "value": {
-      "en": "Goat",
-      "ru": "Коза"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-bull",
-      "years": [
-        { "dateB": "1931-02-17", "dateE": "1932-02-05" },
-        { "dateB": "1943-02-05", "dateE": "1944-01-24" },
-        { "dateB": "1955-01-24", "dateE": "1956-02-11" },
-        { "dateB": "1967-02-09", "dateE": "1968-01-30" },
-        { "dateB": "1979-01-28", "dateE": "1980-02-15" },
-        { "dateB": "1991-02-15", "dateE": "1992-02-03" },
-        { "dateB": "2003-02-01", "dateE": "2004-01-21" },
-        { "dateB": "2015-02-19", "dateE": "2016-02-07" },
-        { "dateB": "2027-02-06", "dateE": "2028-01-25" }
-      ]
-    }
+    "nameId": "name-goat",
+    "incompatibleId": "animal-bull",
+    "notForId": "not-for-goats",
+    "years": [
+      { "dateB": "1931-02-17", "dateE": "1932-02-05" },
+      { "dateB": "1943-02-05", "dateE": "1944-01-24" },
+      { "dateB": "1955-01-24", "dateE": "1956-02-11" },
+      { "dateB": "1967-02-09", "dateE": "1968-01-30" },
+      { "dateB": "1979-01-28", "dateE": "1980-02-15" },
+      { "dateB": "1991-02-15", "dateE": "1992-02-03" },
+      { "dateB": "2003-02-01", "dateE": "2004-01-21" },
+      { "dateB": "2015-02-19", "dateE": "2016-02-07" },
+      { "dateB": "2027-02-06", "dateE": "2028-01-25" }
+    ]
   },
   {
     "id": "animal-horse",
-    "value": {
-      "en": "Horse",
-      "ru": "Лошадь"
-    },
-    "source": "animal",
-    "data": {
-      "incompatible": "animal-rat",
-      "years": [
-        { "dateB": "1930-01-30", "dateE": "1931-02-16" },
-        { "dateB": "1942-02-15", "dateE": "1943-02-04" },
-        { "dateB": "1954-02-04", "dateE": "1955-01-23" },
-        { "dateB": "1966-01-21", "dateE": "1967-02-08" },
-        { "dateB": "1978-02-07", "dateE": "1979-01-27" },
-        { "dateB": "1990-01-27", "dateE": "1991-02-14" },
-        { "dateB": "2002-02-12", "dateE": "2003-01-31" },
-        { "dateB": "2014-01-31", "dateE": "2015-02-18" },
-        { "dateB": "2026-02-17", "dateE": "2027-02-05" }
-      ]
-    }
+    "nameId": "name-horse",
+    "incompatibleId": "animal-rat",
+    "notForId": "not-for-horses",
+    "years": [
+      { "dateB": "1930-01-30", "dateE": "1931-02-16" },
+      { "dateB": "1942-02-15", "dateE": "1943-02-04" },
+      { "dateB": "1954-02-04", "dateE": "1955-01-23" },
+      { "dateB": "1966-01-21", "dateE": "1967-02-08" },
+      { "dateB": "1978-02-07", "dateE": "1979-01-27" },
+      { "dateB": "1990-01-27", "dateE": "1991-02-14" },
+      { "dateB": "2002-02-12", "dateE": "2003-01-31" },
+      { "dateB": "2014-01-31", "dateE": "2015-02-18" },
+      { "dateB": "2026-02-17", "dateE": "2027-02-05" }
+    ]
   }
 ]

@@ -4,6 +4,7 @@ import CommonFieldsPlugin from 'sistemium-data/src/plugins/CommonFieldsPlugin';
 
 import Chapter from './Chapter';
 import ChapterData from './ChapterData';
+import Animal from './Animal';
 import Hour from './Hour';
 import LocalizedString from './LocalizedString';
 import mapValues from 'lodash/mapValues';
@@ -43,6 +44,7 @@ TaroModel.useStoreAdapter(adapter)
   .plugin(new CommonFieldsPlugin());
 
 export default {
+  Animal: new TaroModel(Animal),
   Chapter: new TaroModel(Chapter),
   ChapterData: new TaroModel(ChapterData),
   Hour: new TaroModel(Hour),

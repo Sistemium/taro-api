@@ -1,0 +1,194 @@
+[
+  {
+    "id": "name-rat",
+    "value": {
+      "en": "Rat",
+      "ru": "Крыса"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-rats",
+    "value": {
+      "en": "Rats",
+      "ru": "Крыс"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-rabbit",
+    "value": {
+      "en": "Rabbit",
+      "ru": "Кролик"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-rabbits",
+    "value": {
+      "en": "Rabbits",
+      "ru": "Кроликов"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-dragon",
+    "value": {
+      "en": "Dragon",
+      "ru": "Дракон"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-dragons",
+    "value": {
+      "en": "Dragons",
+      "ru": "Драконов"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-monkey",
+    "value": {
+      "en": "Monkey",
+      "ru": "Обезяна"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-monkeys",
+    "value": {
+      "en": "Monkeys",
+      "ru": "Обезьян"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-bull",
+    "value": {
+      "en": "Bull",
+      "ru": "Бык"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-bulls",
+    "value": {
+      "en": "Bulls",
+      "ru": "Быков"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-snake",
+    "value": {
+      "en": "Snake",
+      "ru": "Змея"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-snakes",
+    "value": {
+      "en": "Snakes",
+      "ru": "Змей"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-cock",
+    "value": {
+      "en": "Cock",
+      "ru": "Петух"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-cocks",
+    "value": {
+      "en": "Cocks",
+      "ru": "Петухов"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-pig",
+    "value": {
+      "en": "Pig",
+      "ru": "Свинья"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-pigs",
+    "value": {
+      "en": "Pigs",
+      "ru": "Свиней"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-tiger",
+    "value": {
+      "en": "Tiger",
+      "ru": "Тигр"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-tigers",
+    "value": {
+      "en": "Tigers",
+      "ru": "Тигров"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-dog",
+    "value": {
+      "en": "Dog",
+      "ru": "Собака"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-dogs",
+    "value": {
+      "en": "Dogs",
+      "ru": "Собак"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-goat",
+    "value": {
+      "en": "Goat",
+      "ru": "Коза"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-goats",
+    "value": {
+      "en": "Goats",
+      "ru": "Коз"
+    },
+    "source": "animals-not"
+  },
+  {
+    "id": "name-horse",
+    "value": {
+      "en": "Horse",
+      "ru": "Лошадь"
+    },
+    "source": "animal-name"
+  },
+  {
+    "id": "not-for-horses",
+    "value": {
+      "en": "Horses",
+      "ru": "Лошадей"
+    },
+    "source": "animals-not"
+  }
+]
