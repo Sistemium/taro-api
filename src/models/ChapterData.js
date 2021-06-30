@@ -5,6 +5,7 @@ export default {
   schema: {
     chapterId: String,
     date: Date,
+    notForAnimalId: String,
     hours: [{
       hourId: String,
       sectorId: CodeString,
