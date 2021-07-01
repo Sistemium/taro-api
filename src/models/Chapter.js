@@ -7,6 +7,7 @@ export default {
     titleId: CodeString,
     descriptionId: CodeString,
     infoId: CodeString,
+    compassInfoId: CodeString,
     useActivators: Boolean,
     isDisabled: {
       type: Boolean,
