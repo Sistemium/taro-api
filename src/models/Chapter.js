@@ -9,6 +9,7 @@ export default {
     infoId: CodeString,
     compassInfoId: CodeString,
     useActivators: Boolean,
+    activatorId: CodeString,
     isDisabled: {
       type: Boolean,
       default: false,
