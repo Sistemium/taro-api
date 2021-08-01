@@ -22,5 +22,13 @@
       "ru": "Фонтан"
     },
     "source": "activator"
+  },
+  {
+    "id": "activator-cleaning",
+    "value": {
+      "en": "Cleaning",
+      "ru": "Уборка"
+    },
+    "source": "activator"
   }
 ]
